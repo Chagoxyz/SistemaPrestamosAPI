@@ -1,0 +1,6 @@
+@SistemaPrestamosAPI_HostAddress = http://localhost:5221
+
+GET {{SistemaPrestamosAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
