@@ -7,13 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Documentacion\**" />
     <Compile Remove="Services\**" />
-    <Content Remove="Documentacion\**" />
     <Content Remove="Services\**" />
-    <EmbeddedResource Remove="Documentacion\**" />
     <EmbeddedResource Remove="Services\**" />
-    <None Remove="Documentacion\**" />
     <None Remove="Services\**" />
   </ItemGroup>
 
@@ -21,6 +17,10 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Documentacion\" />
   </ItemGroup>
 
 </Project>
